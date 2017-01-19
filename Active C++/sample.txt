@@ -1,0 +1,19 @@
+Name: Arnold Schwarzenegger
+Age: 69
+Height(inches): 74
+Weight(lbs): 200
+Bench_Press_Max: 500
+Dead_Lift_Max: 550
+Squat_Max: 700
+Bench_Press_Goal: 525
+Dead_Lift_Goal: 575
+Squat_Goal: 725
+--------------------------------------------------------------------------------------------------------------------------------------------
+KEY  DATE                      TYPE            DURATION            LOCATION      SETS            SET_REPS                    SET_WEIGHT
+--------------------------------------------------------------------------------------------------------------------------------------------
+A    01/01/2017                YOGA                  30                HOME
+W    01/02/2017                  BP                   0                 GYM         4           10 10 8 8               135 165 200 250
+W    01/02/2017               CURLS                   0                 GYM         3            10 10 10                      50 50 50
+C    01/02/2017                 RUN                  20                 GYM
+C    01/05/2017                HIKE                  60            MOUNTAIN
+A    01/15/2017          STRETCHING                  20                HOME
