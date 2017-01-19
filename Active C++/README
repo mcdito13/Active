@@ -1,0 +1,8 @@
+Instructions to run the program:
+
+1. Download all files
+2. If in the terminal:
+   - Compile : g++ Active.cpp -o Active.out
+   - Run Executable : ./Active.out
+3. If in IDE:
+   - Build and Run
