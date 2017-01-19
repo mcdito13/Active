@@ -4,5 +4,5 @@ Instructions to run the program:
 2. If in the terminal:
    - Compile : g++ Active.cpp -o Active.out
    - Run Executable : ./Active.out
-3. If in IDE:
+3. If in an IDE:
    - Build and Run
