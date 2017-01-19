@@ -43,7 +43,7 @@ class Weights : public Activity
 		int GetSets();
 		int * GetWeights();
 
-		// Functions unique to Weights
+		// Functions Unique to Weights
 		string GetSetReps();
 		string GetSetWeights();
 		void SetSets(istream & ins);
