@@ -1,0 +1,15 @@
+Name: Michael Dito
+Age: 26
+Height(inches): 69
+Weight(lbs): 180
+Bench_Press_Max: 200
+Dead_Lift_Max: 300
+Squat_Max: 245
+Bench_Press_Goal: 250
+Dead_Lift_Goal: 350
+Squat_Goal: 300
+--------------------------------------------------------------------------------------------------------------------------------------------
+KEY  DATE                      TYPE            DURATION            LOCATION      SETS            SET_REPS                    SET_WEIGHT
+--------------------------------------------------------------------------------------------------------------------------------------------
+A    10/18/2017                YOGA                  30                HOME
+W    10/18/2017         BENCH PRESS                   0                HOME         5         12 10 8 6 4            85 105 125 135 155
