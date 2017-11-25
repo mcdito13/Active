@@ -84,7 +84,7 @@ class User
  */
 User::User()
 {	
-	cout << "\n* If asked for more than one input, separate them with a space.\n";
+	cout << "\n** If asked for more than one input, separate them with a space. **\n";
 	SetFileName();
 	outfile.open(filename.c_str());
 	SetName();
@@ -381,12 +381,13 @@ void User::Write_File_Profile()
  */
 void User::Write_File_Activities()
 {
-	cout << "\nWriting activities to your file\n";
+	cout << "\nWriting activities to your file... ";
 	Write_File_Profile();
 	Write_File_Heading();
 	for (int i = 0; i < XLog.size(); i++)
 		XLog[i]->WriteFile(outfile);
 	outfile.close();
+	cout << "done\n";
 }
 
 /* Function : Append_Activities(string date)
@@ -398,11 +399,12 @@ void User::Write_File_Activities()
  */
 void User::Append_Activities(string date)
 {
-	cout << "Appending activities to your file\n";
+	cout << "Appending activities to your file... ";
 	for (int i = 0; i < XLog.size(); i++)
 		if(XLog[i]->GetDate() == date)
 			XLog[i]->WriteFile(outfile);
 	outfile.close();
+	cout << "done\n";
 }
 
 							// End of File Writing Functions //

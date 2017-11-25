@@ -60,6 +60,8 @@ User StartUp()
 			default: { cout << endl << answer << " is not a valid option\n"; }
 		}
 	} while (answer != 1 && answer != 2);
+	cout << "Error loading your profile\n";
+	return User();
 }
 
 /* Function : CreateProfile()

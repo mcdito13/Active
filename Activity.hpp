@@ -280,7 +280,7 @@ void Activity::Make_All_UPPER()
  */
 ostream & operator << (ostream & outs, const Activity & A)
 {
-	outs << A.type << endl;
+	outs << A.type;
 	return outs;
 }
 
